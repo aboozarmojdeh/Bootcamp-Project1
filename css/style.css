@@ -1,0 +1,306 @@
+body {
+    text-align: center;
+    background-color: #000033;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../images/city/bg-03.png");
+    background-attachment: fixed;
+}
+
+.header {
+    width: 100%;
+    background: rgba(255, 102, 51, 0.4)
+}
+
+.header-right {
+    float: right;
+}
+
+section {
+    width: 100%;
+    max-width: 700px;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: rgba(0, 0, 33, 0.6);
+    border: 0.4rem white solid;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+}
+
+.card {
+    display: block;
+    text-align: left;
+}
+
+.profile{
+	text-align: center;
+}
+
+/* results */
+#result-card {
+    background-color: rgba(255,255,255,0);
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+}
+
+.restaurant-result {
+    background-color: rgba(255,255,255,0);
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+}
+
+#result-card:hover {
+    background-color: rgba(0, 0, 33);
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+}
+
+#result-card:active {
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+}
+
+#eventful-results {
+    color: white;
+    text-align: left;
+}
+
+.res-img {
+    float: left;
+    margin-right: 5rem;
+}
+
+.rest-sel:hover {
+    background-color: #cc6600;
+    color: white;
+}
+
+.rest-sel:active{
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+}
+
+/* maps */
+#map {
+    height: 100%;
+    float: left;
+    width: 63%;
+    height: 100%;
+}
+
+#resultsMap {
+    height: 400px; 
+    width: 400px;
+    margin: 0 auto;
+    color: black;
+}
+
+#map-main {
+    height: 200px;
+    width: 600px;
+}
+
+/* js toggle class */
+.hidden {
+    display: none;
+}
+
+.to-hide {
+    display: block;
+}
+
+/* text */
+h1 {
+    padding-top: 1rem;
+    line-height: 2.25rem;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+p .white {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+
+p .white-2 {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+
+form {
+    color: white;
+}
+
+#search-term {
+    margin-top: 0.6rem;
+}
+
+/* buttons */
+.btn-basic {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+    .btn-basic:hover{
+        background-color: rgb(255, 102, 51);
+        color: darkblue;
+    }
+
+    .btn-basic:active{
+        background-color: rgb(113, 48, 26);
+        color: white;
+    }
+
+.toggle-btn {
+    margin-top: 1rem;
+}
+
+/* other content */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* sign-in bar */
+#sign-in-bar {
+    position: absolute;
+    background-color: rgba(255, 102, 51, 0.1);
+    border: #ffffff 0.2rem solid;
+    left: 80%;
+    top: 10%;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.sign-in-card {
+    width: 250px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 7px;
+    color: black;
+}
+
+.omb_login .omb_socialButtons a {
+	color: white;  
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+
+.omb_login .omb_socialButtons .omb_btn-facebook {
+    background: #3b5998;
+    text-align: center;
+    color:white;
+}
+
+.omb_login .omb_socialButtons .omb_btn-google {
+    background: #c32f10;
+    text-align: center;
+    color:white;
+}
+
+.omb_login .omb_socialButtons {
+    display: block;
+}
+
+#quickstart-sign-in-face {
+    margin-top: 3rem;
+}
+#quickstart-sign-in-google {
+    margin-bottom: 3rem;
+}
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}
+
+@media (max-width: 768px) {
+    #sign-in-bar {
+        position: static;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 80%;
+    }
+}
